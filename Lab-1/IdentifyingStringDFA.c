@@ -14,9 +14,9 @@ int main() {
         alphabet_exists[alphabet[i]-'a']++;
         i++;
     }
-    char *inputStr;
+    char inputStr[1024];
     printf("\nPlease enter the input string: ");
-    scanf("%s", inputStr);
+    scanf("%1024s", inputStr);
     i=0;
     int q0=1,q1=0,q2=0;
     while(inputStr[i] != '\0'){
